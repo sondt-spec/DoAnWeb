@@ -492,7 +492,7 @@ function checkOrderHistory() {
         }
       }
     })
-    if (flag === 1) {
+    if (flag > 0) {
       displayOrderHistory();
     }
   } else {
